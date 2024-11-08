@@ -5,9 +5,9 @@ btnElem.addEventListener("click", function() {
     
     if (lightImg.src.includes("yellow")) {
         btnElem.innerHTML = "Accendi";
-        lightImg.src = "../img/white_lamp.png"
+        lightImg.src = "./img/white_lamp.png"
     } else {
         btnElem.innerHTML = "Spegni";
-        lightImg.src = ".//img/yellow_lamp.png"
+        lightImg.src = "./img/yellow_lamp.png"
     }
 });
